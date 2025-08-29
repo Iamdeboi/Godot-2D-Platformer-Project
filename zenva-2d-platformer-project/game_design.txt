@@ -1,0 +1,34 @@
+2D Platformer:
+	GAMEPLAY: Player collects coins and avoids enemies
+	GOAL: Reach the flag at the end of the level
+
+Player:
+	Can move and jump using the keyboard
+	movement will have acceleration and braking for smooth-feeling movement
+	
+
+Enemies:
+	Move back and forth between two points
+	Damage the player when hit
+
+Damage:
+	When a player takes damage:
+		health goes down by 1 heart
+		flash red
+		screen shake applied
+		damage sound plays
+
+Coins:
+	When collected, score increases by 1
+	has rotating animation
+	bobs up and down
+	has sound effect when collected
+
+End Flag
+	placed at the end of each level
+	will teleport to the next level
+
+Menu
+	Main menu scene will be the main scene
+	"Play" button to load the first level
+	"Quit" to exit the game
